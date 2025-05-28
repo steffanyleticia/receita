@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-snoothing: antialiased;
 }
 
 body {
@@ -94,4 +95,9 @@ h2 {
 hr{
     border: 1px solid #e3ddd7;
     margin-block: 32px;
+}
+
+.modo li::marker {
+    color: #854632;
+    font-weight: 700;
 }
